@@ -1,0 +1,20 @@
+/* Header */
+
+.header-portafolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 16px;
+}
+
+.header-portafolio img{
+    width: 24px;
+    height: 24px;
+}
+
+.nav-principal{
+    display: none;
+}
+
+
