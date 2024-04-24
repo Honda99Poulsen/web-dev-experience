@@ -8,6 +8,10 @@
     margin: 16px;
 }
 
+.header-portafolio li{
+    margin-left: 67px;
+}
+
 .header-portafolio img{
     width: 24px;
     height: 24px;
@@ -16,5 +20,82 @@
 .nav-principal{
     display: none;
 }
+
+/* Menu Principal */
+
+.menu-principal{
+    padding-top: 16px;
+    margin: 16px;
+}
+
+.menu-principal img{
+    width: 98px;
+    height: 98px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+.menu-principal p{
+    margin: 16px 0;
+}
+
+.redes-sociales{
+    display: flex;
+    margin-bottom: 16px;
+    gap: 8px;
+}
+
+.sobre-mi{
+    background-color: #EAF2FD;
+    padding: 16px;
+}
+
+.sobre-mi p{
+    margin: 16px 0;
+}
+
+/* Skills */
+
+.skills{
+    padding: 16px;
+    background-color: #F5F5F5;
+}
+
+.skills h2, .hobbies h2{
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #fff;
+    width: 156px;
+    height: 118px;
+}
+
+.caja-skills{
+    margin: 0 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.caja img{
+    background-color: #fff;
+    width: 24px;
+    
+}
+
+.lista-skills, .lista-hobbies{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
 
 
