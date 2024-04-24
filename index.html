@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="reset.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Portafolio</title>
 </head>
-<body>
+<body class="boddy">
 
     <header>
         <div class="header-portafolio">
@@ -129,103 +132,133 @@
             <h2>Hobbies</h2>
             <div>
                 <ul class="lista-hobbies">
-                    <li>
-                        <i></i>
-                        <span>Volleyball</span>
+                    <li class="caja">
+                        <div class="caja-hobbies"><i><img src="img/volleyball.png" alt="logo volleyball"></i>
+                            <span>Volleyball</span></div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Tocar la Guitarra</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/guitar.png" alt="Logo de Guitarra"></i>
+                            <span>Tocar la Guitarra</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Leer</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/leer.png" alt="icono leer"></i>
+                            <span>Leer</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Escuchar Musica</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/headphones_black_24dp 1.png" alt="logo oir musica"></i>
+                            <span>Escuchar Musica</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Ver Series</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/tv_black_24dp 1.png" alt="Logo ver series"></i>
+                            <span>Ver Series</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Religion</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/religion.png" alt="Icono religion"></i>
+                            <span>Religion</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Cine</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/cine.png" alt="Logo Cine"></i>
+                            <span>Cine</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
+                    <li class="caja">
+                       <div class="caja-hobbies">
+                        <i><img src="img/fut.png" alt="Logo de futbol"></i>
                         <span>Futball</span>
+                       </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Arte</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/arte.png" alt="Logo Arte"></i>
+                            <span>Arte</span>
+                        </div>
                     </li>
-                    <li>
-                        <i></i>
-                        <span>Yoga</span>
+                    <li class="caja">
+                        <div class="caja-hobbies">
+                            <i><img src="img/Yoga.png" alt="Logo Yoga"></i>
+                            <span>Yoga</span>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div>
+        <div class="formacion-academica">
             <h2>Formacion Academica</h2>
-            <ul>
+            <ul class="ul-formacion-academica">
                 <li>
-                    <i></i>
-                    <h3>Ingenieria en Sistemas Computacionales</h3>
-                    <span>2017 - UNAH</span>
+                    <div class="formacion-imagenes">
+                        <div class="imagen-formacion-academica">
+                            <i><img src="img/UNAH.png" alt="Logo Unah"></i>
+                        </div>
+                        <h3>Ingenieria en Sistemas de Computo</h3>
+                        <span>2017 - UNAH</span>
+                    </div>
                 </li>
                 <li>
-                    <i></i>
+                    <div class="formacion-imagenes">
+                        <div class="imagen-formacion-academica">
+                            <i><img src="img/IHCI.png" alt="Logo IHCI"></i>
+                        </div>
                     <h3>
                         Formacion en Ingles
                     </h3>
                     <span>2016 - IHCI</span>
+                    </div>
                 </li>
                 <li>
-                    <i></i>
-                    <h3>Formacion en UX Desing</h3>
-                    <span>2024 - Alura</span>
+                    <div class="formacion-imagenes">
+                        <div class="imagen-formacion-academica">
+                            <i><img src="img/alura.png" alt="Logo Alura"></i>
+                        </div>
+                        <h3>Formacion en UX Desing</h3>
+                        <span>2024 - Alura</span>
+                    </div>
                 </li>
             </ul>
         </div>
 
-        <div>
+        <div class="experiencia-profesional">
             <h2>Experiencia Profesional</h2>
-            <section>
+            <section class="flex-experiencia">
                 <div>
-                    <img src="#" alt="Imagen del encriptador de texto">
-                    <div><h3>Encriptador de Texto</h3>
-                        <span>Challenge Alura Codificador</span>
-                        <button>Repositorio</button>
-                        <button>Ver demo</button></div>
+                    <img src="img/Rectangle.png" alt="Imagen del encriptador de texto">
+                    <div class="espacio"><h3 class="margin-h3">Encriptador de Texto</h3>
+                        <span class="display-block">Challenge Alura Codificador</span>
+                        <button class="boton-experiencia boton-1">Repositorio</button>
+                        <button class="boton-experiencia boton-2">Ver demo</button></div>
                 </div>
                 <div>
-                    <img src="#" alt="Imagen del juego creado con HTML y Javascript">
-                    <div><h3>Juego creado con HTML y Javascript</h3>
-                        <span>Challenge Oracle</span>
-                        <button>Repositorio</button>
-                        <button>Ver demo</button></div>
+                    <img src="img/Rectangle 2.png" alt="Imagen del juego creado con HTML y Javascript">
+                    <div><h3 class="margin-h3">Juego creado con HTML y Javascript</h3>
+                        <span class="display-block">Challenge Oracle</span>
+                        <button class="boton-experiencia boton-1">Repositorio</button>
+                        <button class="boton-experiencia boton-2">Ver demo</button></div>
                 </div>
                 <div>
-                    <img src="#" alt="Imagen del Encriptador de texto">
-                    <div><h3>Encriptador de texto</h3>
-                        <span>Challenge Oracle</span>
-                        <button>Repositorio</button>
-                        <button>Ver demo</button></div>
+                    <img src="img/Rectangle 3.png" alt="Imagen del Encriptador de texto">
+                    <div><h3 class="margin-h3">Encriptador de texto</h3>
+                        <span class="display-block">Challenge Oracle</span>
+                        <button class="boton-experiencia boton-1">Repositorio</button>
+                        <button class="boton-experiencia boton-2">Ver demo</button></div>
                 </div>
                 <div>
-                    <img src="#" alt="Imagen del juego creado con HTML y Javascript">
-                    <div><h3>Juego creado con HTML y Javascript</h3>
-                        <span>Challenge Oracle</span>
-                        <button>Repositorio</button>
-                        <button>Ver demo</button></div>
+                    <img src="img/Rectangle 2.png" alt="Imagen del juego creado con HTML y Javascript">
+                    <div><h3 class="margin-h3">Juego creado con HTML y Javascript</h3>
+                        <span class="display-block">Challenge Oracle</span>
+                        <button class="boton-experiencia boton-1">Repositorio</button>
+                        <button class="boton-experiencia boton-2">Ver demo</button></div>
                 </div>
             </section>
         </div>
