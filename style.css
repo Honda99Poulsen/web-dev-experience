@@ -1,3 +1,18 @@
+/* Font Family */
+
+.raleway-boddy{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Body */
+
+body{
+    font-family: "Raleway";
+}
+
 /* Header */
 
 .header-portafolio{
@@ -8,8 +23,8 @@
     margin: 16px;
 }
 
-.header-portafolio li{
-    margin-left: 67px;
+.header-portafolio h2{
+    margin-right: 33px;
 }
 
 .header-portafolio img{
@@ -76,7 +91,7 @@
     height: 118px;
 }
 
-.caja-skills{
+.caja-skills, .caja-hobbies{
     margin: 0 0 16px 16px;
     display: flex;
     flex-direction: column;
@@ -85,7 +100,7 @@
 
 .caja img{
     background-color: #fff;
-    width: 24px;
+    width: 37px;
     
 }
 
@@ -95,7 +110,100 @@
     margin-bottom: 16px;
     gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+/* Seccion Formacion Academica */
+
+.formacion-academica{
+    background-color: #EAF2FD;
+    padding: 32px;
+    text-align: left;
+}
+
+.formacion-academica h2{
+    text-align: center;
+}
+
+.formacion-imagenes{
+    width: 296px;
+    height: 169px;
+    padding: 16px 0 0 0;
+}
+
+.formacion-imagenes h3{
+    margin: 8px 0 8px 0;
+}
+
+
+
+.formacion-imagenes img{
+    max-width: 84px;
+}
+
+.ul-formacion-academica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-formacion-academica{
+    width: 296px;
+    height: 118px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* experiencia-profesional */
+
+.experiencia-profesional{
+    padding: 32px;
+}
+
+.experiencia-profesional h2{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.flex-experiencia{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 64px;
+}
+
+.margin-h3{
+    margin: 16px 0 8px 0;
+}
+
+.display-block{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.boton-experiencia{
+    height: 40px;
+    width: 108px;
+}
+
+.boton-1{
+    background-color: #FFF;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    margin-right: 16px;
+}
+
+.boton-2{
+    background-color: #2A7AE4;
+    color: #FFF;
+    border: 1px solid #2A7AE4;
+}
+
+
 
 
 
