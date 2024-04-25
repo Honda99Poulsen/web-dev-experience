@@ -43,7 +43,7 @@ body{
     margin: 16px;
 }
 
-.menu-principal img{
+.portada{
     width: 98px;
     height: 98px;
     border-radius: 50px;
@@ -57,7 +57,25 @@ body{
 .redes-sociales{
     display: flex;
     margin-bottom: 16px;
-    gap: 8px;
+    justify-content: flex-start;
+    gap: 7px;
+    font-size: 14px;
+}
+
+.redes-sociales li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.redes-flex{
+    display: flex;
+   align-items: center;
+}
+
+.icono-menu-principal{
+    width: 16px;
+    height: 16px;
 }
 
 .sobre-mi{
@@ -74,10 +92,16 @@ body{
 .skills{
     padding: 16px;
     background-color: #F5F5F5;
+    font-weight: bold;
+}
+
+.hobb{
+    padding-top: 16px;
 }
 
 .skills h2, .hobbies h2{
     text-align: center;
+    font-size: 22px;
 }
 
 .caja{
@@ -203,7 +227,53 @@ body{
     border: 1px solid #2A7AE4;
 }
 
+/* Seccion Contacto */
 
+.contacto {
+    padding: 32px;
+    background-color: #EAF2FD;
+    line-height: ;
+}
 
+.contacto h3{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
 
+.contacto img{
+    display: none;
+}
 
+.section-contacto{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.section-contacto input{
+    margin-top: 32px;
+    width: 296px;
+    height: 56px;
+    border: 1px solid #fff;
+}
+
+.section-contacto textarea{
+    margin: 32px 0;
+    border: 1px solid #fff;
+}
+
+.section-contacto button{
+    width: 133px;
+    height: 40px;
+    color: #fff;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    font-size: 14px;
+}
+
+/* Seccion Footer */
+
+footer{
+    padding: 32px 65.5px;
+    text-align: center;
+}
