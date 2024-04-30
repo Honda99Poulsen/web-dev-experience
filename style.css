@@ -21,16 +21,18 @@ body{
     align-items: center;
     gap: 10px;
     margin: 16px;
-}
-
-.header-portafolio h2{
-    margin-right: 54px;
-    white-space: nowrap;
+    justify-content: space-between;
 }
 
 .header-portafolio img{
     width: 24px;
     height: 24px;
+}
+
+.iconNombre{
+    display: flex;
+    align-items: center;
+    gap: 9px;
 }
 
 .nav-principal{
@@ -306,15 +308,10 @@ footer{
 
     .header-portafolio{
         margin: 16px 32px 16px 32px;
-        justify-content: flex-end;
-    }
-
-    .header-portafolio img{
-        margin-left: 32px;
+        justify-content: space-between;
     }
 
     .header-portafolio h2{
-        margin-right: 402px;
         font-size: 16px;
     }
 
@@ -426,6 +423,7 @@ footer{
 
     .experiencia-profesional{
         background-color: #F5F5F5;
+        padding: 4.2%;
     }
 
     .flex-experiencia div img{
@@ -446,7 +444,7 @@ footer{
 
     /* Seccion Contacto */
     .section-contacto input{
-        width: 704px;
+        width: 91.7%;
         height: 56px;
     }
 
@@ -457,6 +455,7 @@ footer{
 
     .section-contacto textarea{
         height: 133px;
+        width: 91.7%;
     }
 }
 
