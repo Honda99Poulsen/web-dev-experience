@@ -200,6 +200,10 @@ body{
     padding: 32px;
 }
 
+.flex-experiencia div img{
+    width: 296px;
+}
+
 .experiencia-profesional h2{
     text-align: center;
     margin-bottom: 16px;
@@ -269,6 +273,7 @@ body{
 .section-contacto textarea{
     margin: 32px 0;
     border: 1px solid #fff;
+    height: 133px;
 }
 
 .section-contacto button{
@@ -294,7 +299,7 @@ footer{
     text-align: center;
 }
 
-
+/* Para Dispositivos Tablet 768px */
 @media (min-width: 768px){
 
     /* Seccion Header */
@@ -437,6 +442,232 @@ footer{
     .display-block{
         font-size: 14px;
         font-weight: 500;
+    }
+
+    /* Seccion Contacto */
+    .section-contacto input{
+        width: 704px;
+        height: 56px;
+    }
+
+    .section-contacto button{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .section-contacto textarea{
+        height: 133px;
+    }
+}
+
+/* Para Dispositivos Laptop 1440px */
+
+@media (min-width: 1440px){
+
+    /* Seccion Header */
+    .header-portafolio{
+        justify-content: flex-start;
+        padding: 32px 152px;
+        margin: 0;
+        white-space: nowrap;
+    }
+    
+    .header-portafolio img{
+        margin: 0;
+    }
+
+    .header-portafolio h2{
+        margin-right: 345px;
+    }
+
+    .nav-principal{
+        display: flex;
+        gap: 32px;
+        margin-right: 32px;
+    }
+
+    .nav-flex{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    
+    /* Seccion Menu Principal */
+    .menu-principal{
+        margin: 32px 132px;
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 17px;
+    }
+
+    .portada{
+        width: 368px;
+        height: 368px;
+        border-radius: 184px;
+        margin: 0;
+    }
+
+    .h2-p-redes_sociales{
+        width: 751px;
+    }
+
+    .h2-p-redes_sociales h2{
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .h2-p-redes_sociales p{
+        margin: 24px 0;
+    }
+
+    .size-14{
+        font-size: 22px;
+    }
+
+    .redes-flex span{
+        font-size: 16px;
+    }
+
+    /* Seccion Sobre mi */
+
+    .sobre-mi{
+        padding: 64px 152px;
+    }
+
+    .sobre-mi p{
+        font-size: 16px;
+    }
+
+    .size-22{
+        font-size: 32px;
+    }
+
+    /* Seccion Skills */
+
+    .skills{
+        padding: 32px 152px;
+    }
+
+    .skills h2{
+        font-size: 32px;
+    }
+
+    .lista-skills{
+        margin-bottom: 40px;
+    }
+
+    .lista-skills, .lista-hobbies{
+        justify-content: flex-start;
+        gap:158px 12.5px ;
+        
+    }
+
+    .caja{
+        width: 176px;
+        height: 174px;
+    }
+
+    /* Seccion Formacion Academica */
+
+    .formacion-academica{
+        padding: 82px 152px;
+    }
+
+    .imagen-formacion-academica{
+        width: 368px;
+        height: 286px;
+    }
+
+    .formacion-imagenes{
+        width: 368px;
+        height: 347px;
+    }
+
+    .formacion-imagenes h3{
+        font-size: 22px;
+    }
+
+    .formacion-imagenes span{
+        font-size: 16px;
+    }
+
+    .formacion-imagenes img{
+        max-width: 190px;
+    }
+
+    .width-alura{
+        width: 190px;
+    }
+
+    /* Seccion Experiencia Profesional */
+
+    .experiencia-profesional{
+       padding: 32px 152px;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+
+    .experiencia-profesional h2{
+        margin-bottom: 32px;
+    }
+
+    .espacio{
+        display: inline-block;
+    }
+
+    .flex-experiencia div img{
+        width: 752px;
+    }
+
+    .primer-div-experiencia{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .margin-h3{
+        font-size: 22px;
+    }
+
+    .display-block{
+        font-size: 16px;
+    }
+
+    .boton-experiencia{
+        width: 116px;
+        height: 51px;
+        font-size: 16px;
+    }
+
+    .orden-numero2-imagen{
+        order: 2;
+    }
+
+    /* Seccion Contacto */
+
+    .contacto{
+        display: flex;
+        padding: 128px 152px 64px 152px;
+        gap: 16px;
+    }
+
+    .contacto h3{
+        font-size: 32px;
+    }
+
+    .contacto p{
+        font-size: 16px;
+    }
+
+    .contacto img{
+        display: block;
+    }
+
+    .section-contacto button{
+        width: 144px;
+        height: 51px;
+        font-size: 16px;
     }
 
 }
